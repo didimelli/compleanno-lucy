@@ -14,6 +14,9 @@
                 extend: {
                     fontFamily: {
                         'body': ['"Anton"', 'sans-serif']
+                    },
+                    backgroundImage: {
+                        'lucy': "url('img/lucy.png')"
                     }
                 }
             }
@@ -21,7 +24,7 @@
     </script>
 </head>
 
-<body class="font-body sm:bg-none bg-[url('img/lucy.png')] sm:flex sm:justify-center">
+<body class="font-body sm:flex sm:justify-center">
     <div class="sm:flex sm:flex-row sm:content-evenly flex flex-col justify-center">
         <div class="p-10 content-center">
             <h1>
@@ -53,7 +56,7 @@
             </span>
         </div>
         <img src="img/lucy.png" alt="lucy in all her majesty"
-            class="sm:py-24 sm:h-screen sm:hover:scale-110 sm:hover:-rotate-3 collapse sm:visible">
+            class="sm:py-24 sm:h-screen sm:hover:scale-110 sm:hover:-rotate-3">
     </div>
 </body>
 
